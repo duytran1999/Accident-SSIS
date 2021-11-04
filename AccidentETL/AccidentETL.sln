@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AccidentETL", "AccidentETL\AccidentETL.dtproj", "{8BCEECC0-A2FE-4FB3-B4E9-3AC2B2A4386F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BCEECC0-A2FE-4FB3-B4E9-3AC2B2A4386F}.Development|Default.ActiveCfg = Development
+		{8BCEECC0-A2FE-4FB3-B4E9-3AC2B2A4386F}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CD190E4-C3BB-4C49-95CA-AD1198979393}
+	EndGlobalSection
+EndGlobal
