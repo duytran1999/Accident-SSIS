@@ -2,13 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>AccidentETL</Name>
-    <LastWriteTime>2021-11-04T18:53:22.6301624Z</LastWriteTime>
+    <LastWriteTime>2021-11-17T19:04:39.3492166Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>Package.dtsx</Name>
-      <LastWriteTime>2021-11-04T18:53:22.6071963Z</LastWriteTime>
+      <Name>ETLSourceToStage.dtsx</Name>
+      <LastWriteTime>2021-11-17T17:56:30.6918631Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>ETLStageToNDS.dtsx</Name>
+      <LastWriteTime>2021-11-17T19:04:39.300375Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
