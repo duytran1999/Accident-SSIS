@@ -68,12 +68,6 @@ CREATE TABLE [dbo].[Accident_State](
 	[Urban_or_Rural_Area] [smallint] NULL,
 	[Did_Police_Officer_Attend_Scene_of_Accident] [smallint] NULL,
 	[LSOA_of_Accident_Location] [varchar](50) NULL,
-	[Postcode] [varchar](50) NULL,
-	[Pcds] [varchar](50) NULL,
-	[Country_name] [varchar](50) NULL,
-	[County] [varchar](50) NULL,
-	[City] [varchar](50) NULL,
-	[Region_name] [varchar](50) NULL,
 	[CreateAt] [datetime] NULL,
 	[UpdateAt] [datetime] NULL,
 PRIMARY KEY CLUSTERED 
@@ -140,6 +134,8 @@ CREATE TABLE [dbo].[LSOA_Location_Accident](
 	[LSOA_cd] [varchar](50) NULL,
 	[LSOA_nm] [varchar](50) NULL,
 	[Postcode_splited] [varchar](50) NULL,
+	[CreateAt] [datetime] NULL,
+	[UpdateAt] [datetime] NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[Pcd] ASC
@@ -173,6 +169,8 @@ CREATE TABLE [dbo].[Postcode](
 	[iso3166-2] [varchar](50) NULL,
 	[region_code] [varchar](50) NULL,
 	[region_name] [varchar](50) NULL,
+	[CreateAt] [datetime] NULL,
+	[UpdateAt] [datetime] NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[postcode] ASC

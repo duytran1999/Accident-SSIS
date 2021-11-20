@@ -1,0 +1,2 @@
+select * 
+from LSOA_Location_Accident LLA Inner Join Postcode as P on LLA.Postcode_splited=P.postcode
